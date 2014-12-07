@@ -12,3 +12,5 @@
 @media (min-width:52em) {
   .md-static { position: static }
 }
+
+.no-underline:hover {text-decoration: none; }
