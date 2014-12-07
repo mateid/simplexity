@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body class="container">
+
+{% include header.html %}
+
+<div class="px1">
+    {{ content }}
+</div>
+
+{% include footer.html %}
+
+<script language="JavaScript" type="text/javascript">
+    var Disclosure = function (el, options) {
+        var self = this;
+        this.el = el;
+        this.isActive = false;
+        this.toggle = function (e) {
+            e.stopPropagation();
+            self.isActive = !self.isActive;
+            if (self.isActive) {
+                self.el.classList.add('is-active');
+            } else {
+                self.el.classList.remove('is-active');
+            }
+        }
+        this.el.addEventListener('click', function (e) {
+            self.toggle(e);
+        });
+    };
+    var disclosures = document.querySelectorAll('[data-disclosure]');
+    for (var i = 0; i < disclosures.length; i++) {
+        new Disclosure(disclosures[i]);
+    }
+</script>
+</body>
+</html>

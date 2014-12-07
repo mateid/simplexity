@@ -1,0 +1,14 @@
+@import "basscss";
+
+:root {
+  --font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+  --line-height: 1.5;
+  --heading-font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+  --heading-font-weight: bold;
+  --heading-line-height: 1.25;
+  --monospace-font-family: 'Source Code Pro', Consolas, monospace;
+}
+
+@media (min-width:52em) {
+  .md-static { position: static }
+}

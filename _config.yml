@@ -1,0 +1,17 @@
+# Site settings
+title: Simplexity
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Simplexity is a minimalistic theme for the Jekyll blog system. Licensed under MIT license.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://github.com/mateid/simplexity" # the base hostname & protocol for your site
+twitter_username: mateid
+github_username:  mateid
+
+exclude: [node_modules, gulpfile.js, css/basscss.css]
+
+# Build settings
+markdown: kramdown
+
+# Highlighting
+highlighter: pygments
