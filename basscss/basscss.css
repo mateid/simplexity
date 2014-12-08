@@ -1,16 +1,30 @@
 @import "basscss";
 
 :root {
-  --font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
-  --line-height: 1.5;
-  --heading-font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
-  --heading-font-weight: bold;
-  --heading-line-height: 1.25;
-  --monospace-font-family: 'Source Code Pro', Consolas, monospace;
+    --heading-font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+    --heading-font-weight: 900;
+    --font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+    --monospace-font-family: 'Source Code Pro', Consolas, monospace;
 }
 
-@media (min-width:52em) {
-  .md-static { position: static }
+@media (min-width: 52em) {
+    .md-static {
+        position: static
+    }
 }
 
-.no-underline:hover {text-decoration: none; }
+h1 a:hover {
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: none;
+}
+
+h3 a:hover {
+    text-decoration: none;
+}
+
+.bb1-lighter-grey {
+    border-bottom: 1px solid var(--lighter-gray);
+}

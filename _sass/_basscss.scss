@@ -38,7 +38,7 @@ h4,
 h5,
 h6 {
   font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: .5em;
@@ -1461,8 +1461,24 @@ hr {
 
 
 
-@media (min-width:52em) {
+@media (min-width: 52em) {
   .md-static {
     position: static;
   }
+}
+
+h1 a:hover {
+  text-decoration: none;
+}
+
+h2 a:hover {
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: none;
+}
+
+.bb1-lighter-grey {
+  border-bottom: 1px solid #eee;
 }

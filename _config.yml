@@ -8,7 +8,7 @@ url: "http://github.com/mateid/simplexity" # the base hostname & protocol for yo
 twitter_username: mateid
 github_username:  mateid
 
-exclude: [node_modules, gulpfile.js, css/basscss.css]
+exclude: [node_modules, gulpfile.js, basscss]
 
 # Build settings
 markdown: kramdown
