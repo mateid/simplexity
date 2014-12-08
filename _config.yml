@@ -12,6 +12,11 @@ exclude: [node_modules, gulpfile.js, basscss]
 
 # Build settings
 markdown: kramdown
+permalink:  pretty
+paginate:  3
+sass:
+  compressed: true
 
 # Highlighting
 highlighter: pygments
+

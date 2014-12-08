@@ -4,7 +4,7 @@ layout: default
 <div class="clearfix">
 
     <ul class="list-reset mt2">
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
         <li class="mt2 bb1-lighter-grey">
             <p class="mb0 light-gray italic">{{ post.date | date: "%b %-d, %Y" }}</p>
 
@@ -22,8 +22,24 @@ layout: default
         {% endfor %}
     </ul>
     <div class="mb2 clearfix">
-        <div class="button left">Newer</div>
-        <div class="button right">Older</div>
+        <div class="left">
+            {% if paginator.previous_page %}
+            {% if paginator.page == 2 %}
+            <a class="button" href="{{ site.baseurl }}/">Newer</a>
+            {% else %}
+            <a class="button" href="{{ site.baseurl }}/page{{paginator.previous_page}}/">Newer</a>
+            {% endif %}
+            {% else %}
+            <span class="button disabled">Newer</span>
+            {% endif %}
+        </div>
+        <div class="right">
+            {% if paginator.next_page %}
+            <a class="button" href="{{ site.baseurl }}/page{{paginator.next_page}}/">Older</a>
+            {% else %}
+            <span class="button disabled">Older</span>
+            {% endif %}
+        </div>
     </div>
 
 </div>
