@@ -1,9 +1,9 @@
 @import "basscss";
 
 :root {
-    --heading-font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+    --font-family: "Oxygen", sans-serif;
+    --heading-font-family: "Oswald", sans-serif;
     --heading-font-weight: 900;
-    --font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
     --monospace-font-family: 'Source Code Pro', Consolas, monospace;
 }
 

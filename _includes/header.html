@@ -2,7 +2,7 @@
     <nav>
         <div class="relative clearfix white bg-dark-gray">
             <div class="left">
-                <a href="/" class="button py2 m0 button-nav-dark">Home</a>
+                <a href="/" class="h3 button py2 m0 button-nav-dark">Simplexity</a>
             </div>
             <div class="right">
                 <div id="account-menu" class="right inline-block disclosure-group" data-disclosure="">
@@ -12,10 +12,10 @@
                     <div class="disclosure-show absolute right-0 left-0 clearfix nowrap bg-dark-gray md-static md-show">
                         {% for page in site.pages %}
                         {% if page.title %}
-                        <a href="{{ page.url | prepend: site.baseurl }}"
-                           class="md-col button block py2 button-nav-dark">{{ page.title }}</a>
+                        <a href="{{ page.url | prepend: site.baseurl }}" class="md-col button block py2 button-nav-dark">{{ page.title }}</a>
                         {% endif %}
                         {% endfor %}
+                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="md-col button block py2 button-nav-dark"><i class="fa fa-rss"></i></a>
                     </div>
                 </div>
             </div>
