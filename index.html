@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="clearfix">
 
-    <ul class="list-reset mt2">
+    <ul class="post-list list-reset mt2">
         {% for post in paginator.posts %}
         <li class="mt2 bb1-lighter-grey">
             <p class="mb0 light-gray italic">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -14,7 +14,7 @@ layout: default
 
             {% if post.tags.size > 0 %}
             <p class="light-gray italic">
-                <i class="fa fa-tags"></i> {{ post.tags || join: ' '}}
+                <i class="fa fa-tags"></i> {{ post.tags || join: ', '}}
             </p>
             {% endif %}
 
@@ -25,19 +25,15 @@ layout: default
         <div class="left">
             {% if paginator.previous_page %}
             {% if paginator.page == 2 %}
-            <a class="p1 button-gray" href="{{ site.baseurl }}/">Newer</a>
+            <a class="p1 button bg-dark-gray white" href="{{ site.baseurl }}/"><i class="fa fa-angle-left"></i> Newer</a>
             {% else %}
-            <a class="p1 button-gray" href="{{ site.baseurl }}/page{{paginator.previous_page}}/">Newer</a>
+            <a class="p1 button bg-dark-gray white" href="{{ site.baseurl }}/page{{paginator.previous_page}}/"><i class="fa fa-angle-left"></i> Newer</a>
             {% endif %}
-            {% else %}
-            <span class="p1 button-gray disabled">Newer</span>
             {% endif %}
         </div>
         <div class="right">
             {% if paginator.next_page %}
-            <a class="p1 button-gray" href="{{ site.baseurl }}/page{{paginator.next_page}}/">Older</a>
-            {% else %}
-            <span class="p1 button-gray disabled">Older</span>
+            <a class="p1 button bg-dark-gray white" href="{{ site.baseurl }}/page{{paginator.next_page}}/">Older <i class="fa fa-angle-right"></i></a>
             {% endif %}
         </div>
     </div>
