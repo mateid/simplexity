@@ -25,15 +25,21 @@ layout: default
         <div class="left">
             {% if paginator.previous_page %}
             {% if paginator.page == 2 %}
-            <a class="p1 button bg-dark-gray white" href="{{ site.baseurl }}/"><i class="fa fa-angle-left"></i> Newer</a>
+            <span class="p1 button bg-dark-gray table-cell">
+                <i class="fa fa-angle-left white"></i> <a class="white" href="{{ site.baseurl }}/"> Newer</a>
+            </span>
             {% else %}
-            <a class="p1 button bg-dark-gray white" href="{{ site.baseurl }}/page{{paginator.previous_page}}/"><i class="fa fa-angle-left"></i> Newer</a>
+            <span class="p1 button bg-dark-gray">
+                <i class="fa fa-angle-left white"></i> <a class="white" href="{{ site.baseurl }}/page{{paginator.previous_page}}/">Newer</a>
+            </span>
             {% endif %}
             {% endif %}
         </div>
         <div class="right">
             {% if paginator.next_page %}
-            <a class="p1 button bg-dark-gray white" href="{{ site.baseurl }}/page{{paginator.next_page}}/">Older <i class="fa fa-angle-right"></i></a>
+            <span class="p1 button bg-dark-gray">
+                <a class="white" href="{{ site.baseurl }}/page{{paginator.next_page}}/">Older</a> <i class="fa fa-angle-right white"></i>
+            </span>
             {% endif %}
         </div>
     </div>
