@@ -1,20 +1,47 @@
 @import "basscss";
 
+@custom-media --breakpoint-sm (min-width: 32em);
+@custom-media --breakpoint-md (min-width: 42em);
+@custom-media --breakpoint-lg (min-width: 52em);
+
 :root {
     --font-family: "Oxygen", sans-serif;
     --heading-font-family: "Oswald", sans-serif;
     --heading-font-weight: 900;
     --monospace-font-family: 'Source Code Pro', Consolas, monospace;
+    --container-width: 64em;
 }
 
-@media (min-width: 52em) {
+html {
+    font-size: 12px;
+}
+
+@media (--breakpoint-md) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (--breakpoint-lg) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (--breakpoint-md) {
     .md-static {
         position: static
     }
+}
+
+.light-blue {
+    color: #75dfff;
 }
 
 .bb1-lighter-grey {
     border-bottom: 1px solid var(--lighter-gray);
 }
 
-.post-list li:last-child { border-bottom: none; }
+.post-list li:last-child {
+    border-bottom: none;
+}

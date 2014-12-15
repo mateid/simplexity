@@ -512,37 +512,37 @@ td {
   display: none !important;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 32em) {
   .sm-show {
     display: block !important;
   }
 }
 
-@media (min-width: 52em) {
+@media (min-width: 42em) {
   .md-show {
     display: block !important;
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 52em) {
   .lg-show {
     display: block !important;
   }
 }
 
-@media (min-width: 40em) {
+@media (min-width: 32em) {
   .sm-hide {
     display: none !important;
   }
 }
 
-@media (min-width: 52em) {
+@media (min-width: 42em) {
   .md-hide {
     display: none !important;
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 52em) {
   .lg-hide {
     display: none !important;
   }
@@ -756,7 +756,7 @@ td {
   width: 100%;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 32em) {
   .sm-col {
     float: left;
     box-sizing: border-box;
@@ -816,7 +816,7 @@ td {
   }
 }
 
-@media (min-width: 52em) {
+@media (min-width: 42em) {
   .md-col {
     float: left;
     box-sizing: border-box;
@@ -876,7 +876,7 @@ td {
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 52em) {
   .lg-col {
     float: left;
     box-sizing: border-box;
@@ -957,7 +957,7 @@ td {
   table-layout: fixed;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 32em) {
   .sm-table {
     display: table;
     width: 100%;
@@ -969,7 +969,7 @@ td {
   }
 }
 
-@media (min-width: 52em) {
+@media (min-width: 42em) {
   .md-table {
     display: table;
     width: 100%;
@@ -981,7 +981,7 @@ td {
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 52em) {
   .lg-table {
     display: table;
     width: 100%;
@@ -1461,26 +1461,31 @@ hr {
 
 
 
+html {
+  font-size: 12px;
+}
+
+@media (min-width: 42em) {
+  html {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 52em) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 42em) {
   .md-static {
     position: static;
   }
 }
 
-/*
-h1 a:hover {
-    text-decoration: none;
-
+.light-blue {
+  color: #75dfff;
 }
-
-h2 a:hover {
-    text-decoration: none;
-}
-
-h3 a:hover {
-    text-decoration: none;
-}
-*/
 
 .bb1-lighter-grey {
   border-bottom: 1px solid #eee;
