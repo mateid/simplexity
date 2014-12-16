@@ -5,6 +5,7 @@
 @custom-media --breakpoint-lg (min-width: 52em);
 
 :root {
+    /* Override basscss variables */
     --font-family: "Oxygen", sans-serif;
     --heading-font-family: "Oswald", sans-serif;
     --heading-font-weight: 900;
@@ -12,13 +13,14 @@
     --container-width: 64em;
 }
 
+/* Set the base font size based on the viewport size; this way fonts scale nicely on different devices */
 html {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 @media (--breakpoint-md) {
     html {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -34,6 +36,7 @@ html {
     }
 }
 
+/* A couple of helper styles */
 .light-blue {
     color: #75dfff;
 }
