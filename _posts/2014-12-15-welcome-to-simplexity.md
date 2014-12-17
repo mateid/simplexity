@@ -1,24 +1,23 @@
 ---
 layout: post
-title:  "Welcome to Simplexity - a jekyll theme!"
+title:  "Welcome to Simplexity - a Jekyll theme!"
 date:   2014-12-15 16:00:34
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+Simplexity is a minimalistic theme for Jekyll. t is meant to showcase your content, using a monochrome color scheme and 
+a fluid and responsive design. Large, legible fonts scale well across devices and various viewport sizes.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Simplexity is licensed under [MIT license][license] and is [available on GitHub][simplexity].
 
-Jekyll also offers powerful support for code snippets:
+##What is Jekyll
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Jekyll is a static site generator that transforms `markdown` file into Html. It plays really nice with GitHub and you 
+can host your Jekyll powered blog right out of Git pages.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. If you have questions, you can ask them on 
+[Jekyll’s dedicated Help repository][jekyll-help].
 
+[license]:     http://opensource.org/licenses/MIT
+[simplexity]:  http://github.com/mateid/simplexity
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help

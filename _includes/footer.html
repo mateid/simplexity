@@ -5,7 +5,11 @@
                 <h5 class="m0 white">Powered by Simplexity</h5>
             </div>
             <div class="p2 m0 white">
+                {% if(site.description_include) %}
+                {% include {{site.description_include}} %}
+                {% else %}
                 <p class="h6">{{ site.description }}</p>
+                {% endif %}
             </div>
         </div>
 
