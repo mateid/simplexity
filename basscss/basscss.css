@@ -13,7 +13,8 @@
     --container-width: 64em;
 }
 
-/* Set the base font size based on the viewport size; this way fonts scale nicely on different devices */
+/* Set the base font size based on the viewport size; this way fonts scale
+   nicely on different devices */
 html {
     font-size: 14px;
 }

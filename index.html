@@ -9,12 +9,18 @@ layout: default
             <p class="mb0 light-gray italic">{{ post.date | date: "%b %-d, %Y" }}</p>
 
             <h2 class="h1 mt1 mb1">
-                <a class="dark-gray" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <a class="light-blue" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
 
             {% if post.tags.size > 0 %}
             <p class="light-gray italic">
                 <i class="fa fa-tags"></i> {{ post.tags || join: ', '}}
+            </p>
+            {% endif %}
+
+            {% if(site.show_post_excerpt) %}
+            <p class="light-gray italic">
+                {{ post.excerpt }}
             </p>
             {% endif %}
 

@@ -50,13 +50,13 @@ Simplexity has un-ordered lists
 
 - Apples
 - Oranges
-- Grapes
+- Umm Grapes?
 
 and ordered lists:
 
 1. Apples
 2. Oranges
-3. Grapes
+3. Ok, Grapes
 
 This is what images look like:
 
