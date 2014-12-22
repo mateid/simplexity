@@ -11,6 +11,8 @@
     --heading-font-weight: 900;
     --monospace-font-family: 'Source Code Pro', Consolas, monospace;
     --container-width: 64em;
+
+    --light-blue: #75dfff;
 }
 
 /* Set the base font size based on the viewport size; this way fonts scale
@@ -39,7 +41,17 @@ html {
 
 /* A couple of helper styles */
 .light-blue {
-    color: #75dfff;
+    color: var(--light-blue);
+}
+
+.hl-blue:hover
+{
+  color: var(--blue);
+}
+
+.no-underline, .no-underline:hover
+{
+  text-decoration: none;
 }
 
 .bb1-lighter-grey {

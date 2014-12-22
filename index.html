@@ -9,7 +9,7 @@ layout: default
             <p class="mb0 light-gray italic">{{ post.date | date: "%b %-d, %Y" }}</p>
 
             <h2 class="h1 mt1 mb1">
-                <a class="light-blue" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <a class="dark-gray no-underline hl-blue" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
 
             {% if post.tags.size > 0 %}

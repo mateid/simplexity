@@ -1459,7 +1459,12 @@ hr {
 
 
 
+:root {
+  /* Override basscss variables */
+}
 
+/* Set the base font size based on the viewport size; this way fonts scale
+   nicely on different devices */
 
 html {
   font-size: 14px;
@@ -1483,8 +1488,19 @@ html {
   }
 }
 
+/* A couple of helper styles */
+
 .light-blue {
   color: #75dfff;
+}
+
+.hl-blue:hover {
+  color: #0076df;
+}
+
+.no-underline,
+.no-underline:hover {
+  text-decoration: none;
 }
 
 .bb1-lighter-grey {
