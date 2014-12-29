@@ -6,11 +6,14 @@ layout: default
     <ul class="post-list list-reset mt2">
         {% for post in paginator.posts %}
         <li class="mt2 bb1-lighter-grey">
+
             <p class="mb0 light-gray italic">{{ post.date | date: "%b %-d, %Y" }}</p>
 
-            <h2 class="h1 mt1 mb1">
-                <a class="dark-gray no-underline hl-blue" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
+            <a class="dark-gray hl-blue" href="{{ post.url | prepend: site.baseurl }}">
+              <h2 class="h1 mt1 mb1">
+                {{ post.title }}
+              </h2>
+            </a>
 
             {% if post.tags.size > 0 %}
             <p class="light-gray italic">
