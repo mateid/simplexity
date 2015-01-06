@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-Simplexity is a minimalistic theme for Jekyll. t is meant to showcase your content, using a monochrome color scheme and
+Simplexity is a minimalistic theme for Jekyll. It is meant to showcase your content, using a monochrome color scheme and
 a fluid and responsive design. Large, legible fonts scale well across devices and various viewport sizes.
 
 Simplexity is licensed under [MIT license][license] and is [available on GitHub][simplexity].

@@ -4,8 +4,8 @@ title:  Simplexity features and styles
 date:   2014-12-12 16:00:34
 tags:   features
 ---
-Simplexity has support for customizing the fonts via `basscss` variables. You can customize these in the `basscss/basscss.css` 
-file, along with the custom media queries used to scale the font size based on the device viewport. I've kept the custom 
+Simplexity has support for customizing the fonts via `basscss` variables. You can customize these in the `basscss/basscss.css`
+file, along with the custom media queries used to scale the font size based on the device viewport. I've kept the custom
 styles to a minimum.
 
 ----
@@ -18,7 +18,7 @@ Simplexity nicely proportioned headings with good vertical rhythm. You can use s
 
 ###Heading 3
 
-This is some regular paragraph text, followed by a quote. Here is some *italic* text followed by something more 
+This is some regular paragraph text, followed by a quote. Here is some *italic* text followed by something more
 **important**.
 
 > This is what quoted text looks like.
