@@ -2,8 +2,9 @@
 layout: post
 title:  "Welcome to Simplexity - a Jekyll theme!"
 date:   2014-12-15 16:00:34
+show_excerpt: true
 ---
-Simplexity is a minimalistic theme for Jekyll. It is meant to showcase your content, using a monochrome color scheme and 
+Simplexity is a minimalistic theme for Jekyll. It is meant to showcase your content, using a monochrome color scheme and
 a fluid and responsive design. Large, legible fonts scale well across devices and various viewport sizes.
 
 Simplexity is licensed under [MIT license][license] and is [available on GitHub][simplexity].

@@ -2,6 +2,7 @@
 layout: post
 title:  "Simplexity credits"
 date:   2014-12-11 16:00:34
+show_excerpt: false
 tags:   credits components
 ---
 Simplexity is build with the help of the following open source tools and libraries:
@@ -14,7 +15,7 @@ Simplexity is build with the help of the following open source tools and librari
 
 Many thank to all those who contributed to these awesome projects!
 
-Simplexity has been inspired by [Pixyll](http://pixyll.com), a great Jekyll theme by [John Otander](http://johnotander.com/) (@4lpine). 
+Simplexity has been inspired by [Pixyll](http://pixyll.com), a great Jekyll theme by [John Otander](http://johnotander.com/) (@4lpine).
 Many thanks for the inspiration!
 
 [jekyll]:      http://jekyllrb.com

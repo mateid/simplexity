@@ -2,6 +2,7 @@
 layout: post
 title:  Simplexity features and styles
 date:   2014-12-12 16:00:34
+show_excerpt: true
 tags:   features
 ---
 Simplexity has support for customizing the fonts via `basscss` variables. You can customize these in the `basscss/basscss.css`
