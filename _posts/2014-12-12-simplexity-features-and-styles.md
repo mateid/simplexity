@@ -6,9 +6,7 @@ show_excerpt: true
 tags:   features
 ---
 Simplexity has support for customizing the fonts via `basscss` variables. You can customize these in the `basscss/basscss.css`
-file, along with the custom media queries used to scale the font size based on the device viewport. I've kept the custom
-styles to a minimum.
-
+file, along with the custom media queries used to scale the font size based on the device viewport. I've kept custom styles to a minimum.
 ----
 
 Simplexity nicely proportioned headings with good vertical rhythm. You can use six levels of headings.
