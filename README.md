@@ -4,7 +4,7 @@ Simplexity is a minimalistic theme for Jekyll. It is meant to showcase your cont
 
 Simplexity is licensed under [MIT license][license].
 
-!["Simplexity screenshot"](../images/simlexity.png?raw=true)
+!["Simplexity screenshot"](images/simlexity.png?raw=true)
 
 ###Getting started
 
