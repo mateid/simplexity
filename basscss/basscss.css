@@ -37,7 +37,7 @@ html {
 
 @media (--breakpoint-md) {
     .md-static {
-        position: static
+        position: static;
     }
 }
 
