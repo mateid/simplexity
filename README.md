@@ -4,7 +4,7 @@ Simplexity is a minimalistic theme for Jekyll. It is meant to showcase your cont
 
 Simplexity is licensed under [MIT license][license].
 
-![Simplexity screenshot](images/simlexity.png)
+![Simplexity screenshot](simplexity.png)
 
 ###Getting started
 
@@ -13,3 +13,5 @@ To get started you need to install Jekyll first. When you're done clone the Simp
 ###Customize the theme
 
 You can easily customize Simplexity by adding your custom styles to `basscss.css`. It supports easily customizing the fonts via `basscss` variables. You can customize these in the `basscss/basscss.css` file, along with the custom media queries used to scale the font size based on the device viewport. I've kept custom styles to a minimum.
+
+[license]:     http://opensource.org/licenses/MIT
