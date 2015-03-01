@@ -1,30 +1,56 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
+  
   <url>
-    <loc>{{ site.url }}{{ post.url }}</loc>
-    {% if post.lastmod == null %}
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-    {% else %}
-    <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-    {% endif %}
+    <loc>http://github.com/mateid/simplexity/2014/12/15/welcome-to-simplexity/</loc>
+    
+    <lastmod>2014-12-15T09:00:34-07:00</lastmod>
+    
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  {% endfor %}
-
-  {% for page in site.pages %}
-  {% for excluded_extension in ['.css', '.xml']%}
-  {% unless page.path contains excluded_extension %}
+  
   <url>
-    <loc>{{ site.url }}{{ page.url }}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>2</priority>
+    <loc>http://github.com/mateid/simplexity/2014/12/12/simplexity-features-and-styles/</loc>
+    
+    <lastmod>2014-12-12T09:00:34-07:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
-  {% endunless %}
-  {% endfor %}
-  {% endfor %}
+  
+  <url>
+    <loc>http://github.com/mateid/simplexity/2014/12/11/simplexity-credits/</loc>
+    
+    <lastmod>2014-12-11T09:00:34-07:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://github.com/mateid/simplexity/2014/12/07/simplexity-has-pagination/</loc>
+    
+    <lastmod>2014-12-07T14:00:34-07:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </urlset>

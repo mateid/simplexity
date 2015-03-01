@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Simplexity</title>
+    <title>Simplexity features and styles</title>
     <meta name="description" content="Simplexity is a minimalistic theme for Jekyll. It is ment to showcase your content, using a monochrome color scheme and a fluid and responsive design. Large, legible fonts scale well across devices and various viewport sizes. Simplexity is licensed under MIT license.
 ">
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Oswald|Oxygen:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/simplexity.css">
-    <link rel="canonical" href="http://github.com/mateid/simplexity/">
+    <link rel="canonical" href="http://github.com/mateid/simplexity/2014/12/12/simplexity-features-and-styles/">
 
     <script data-main="/js/main" src="/js/require.js"></script>
 </head>
@@ -58,96 +58,88 @@
 
 
     <div class="p2 mt3">
-        <div class="clearfix">
+        <header class="mt2">
+    <p class="mb0 light-gray italic">
+        Dec 12, 2014
+    </p>
 
-    <ul class="post-list list-reset mt2">
-        
-        <li class="mt2 bb1-lighter-grey">
+    <h1 class="mt1 mb1">Simplexity features and styles</h1>
+    
+    <p class="light-gray italic">
+        <i class="fa fa-tags"></i> features
+    </p>
+    
+</header>
 
-            <p class="mb0 light-gray italic">Dec 15, 2014</p>
-
-            <a class="dark-gray hl-blue" href="/2014/12/15/welcome-to-simplexity/">
-              <h2 class="h1 mt1 mb1">
-                Welcome to Simplexity - a Jekyll theme!
-              </h2>
-            </a>
-
-            
-
-            
-            <p class="light-gray italic">
-                <p>Simplexity is a minimalistic theme for Jekyll. It is meant to showcase your content, using a monochrome color scheme and
-a fluid and responsive design. Large, legible fonts scale well across devices and various viewport sizes.</p>
-
-
-            </p>
-            
-
-        </li>
-        
-        <li class="mt2 bb1-lighter-grey">
-
-            <p class="mb0 light-gray italic">Dec 12, 2014</p>
-
-            <a class="dark-gray hl-blue" href="/2014/12/12/simplexity-features-and-styles/">
-              <h2 class="h1 mt1 mb1">
-                Simplexity features and styles
-              </h2>
-            </a>
-
-            
-            <p class="light-gray italic">
-                <i class="fa fa-tags"></i> features
-            </p>
-            
-
-            
-            <p class="light-gray italic">
-                <p>Simplexity has support for customizing the fonts via <code>basscss</code> variables. You can customize these in the <code>basscss/basscss.css</code>
+<article>
+    <p>Simplexity has support for customizing the fonts via <code>basscss</code> variables. You can customize these in the <code>basscss/basscss.css</code>
 file, along with the custom media queries used to scale the font size based on the device viewport. I’ve kept custom styles to a minimum.
 —-</p>
 
+<p>Simplexity nicely proportioned headings with good vertical rhythm. You can use six levels of headings.</p>
 
-            </p>
-            
+<h1 id="heading-1">Heading 1</h1>
 
-        </li>
-        
-        <li class="mt2 bb1-lighter-grey">
+<h2 id="heading-2">Heading 2</h2>
 
-            <p class="mb0 light-gray italic">Dec 11, 2014</p>
+<h3 id="heading-3">Heading 3</h3>
 
-            <a class="dark-gray hl-blue" href="/2014/12/11/simplexity-credits/">
-              <h2 class="h1 mt1 mb1">
-                Simplexity credits
-              </h2>
-            </a>
+<p>This is some regular paragraph text, followed by a quote. Here is some <em>italic</em> text followed by something more
+<strong>important</strong>.</p>
 
-            
-            <p class="light-gray italic">
-                <i class="fa fa-tags"></i> credits, components
-            </p>
-            
+<blockquote>
+  <p>This is what quoted text looks like.</p>
+</blockquote>
 
-            
+<p>Citation’s can be added with only slightly more complex markdown.</p>
 
-        </li>
-        
-    </ul>
-    <div class="mt3 mb2 clearfix">
-        <div class="left">
-            
-        </div>
-        <div class="right">
-            
-            <span class="p1 button bg-dark-gray">
-                <a class="white" href="/page2/">Older</a> <i class="fa fa-angle-right white"></i>
-            </span>
-            
-        </div>
-    </div>
+<blockquote>
+  <p>Quoted text, this time with attribution just below.</p>
 
-</div>
+  <h6 id="john-oliver-doe-how-to-stay-anonymous-in-the-age-of-big-data"><em>John Oliver Doe</em>, ‘How to stay anonymous in the age of Big Data’</h6>
+</blockquote>
+
+<p>You can use two kinds of code style with Simplexity - with and without highlighting.</p>
+
+<pre><code>    print 'code without highlighting'
+</code></pre>
+
+<p>Here is what some highlighted ruby code looks like:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
+<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
+
+<p>You can use the default Jekyll code markup, Simplexity uses the same color scheme provided out of the box by Jekyll. I’ve
+considered using other schemes but I find the default one quite easy on the eyes.</p>
+
+<p>Simplexity has un-ordered lists</p>
+
+<ul>
+  <li>Apples</li>
+  <li>Oranges</li>
+  <li>Umm Grapes?</li>
+</ul>
+
+<p>and ordered lists:</p>
+
+<ol>
+  <li>Apples</li>
+  <li>Oranges</li>
+  <li>Ok, Grapes</li>
+</ol>
+
+<p>This is what images look like:</p>
+
+<p><img src="http://www.placehold.it/350x150" alt="Some image" title="This is the image caption" /></p>
+
+<p>That’s all I can think of for now, I’ll add more here as it comes up.</p>
+
+</article>
+
+
 
     </div>
 

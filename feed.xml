@@ -1,30 +1,158 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Simplexity</title>
+    <description>Simplexity is a minimalistic theme for Jekyll. It is ment to showcase your content, using a monochrome color scheme and a fluid and responsive design. Large, legible fonts scale well across devices and various viewport sizes. Simplexity is licensed under MIT license.
+</description>
+    <link>http://github.com/mateid/simplexity/</link>
+    <atom:link href="http://github.com/mateid/simplexity/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 27 Jan 2015 21:43:17 -0700</pubDate>
+    <lastBuildDate>Tue, 27 Jan 2015 21:43:17 -0700</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Welcome to Simplexity - a Jekyll theme!</title>
+        <description>&lt;p&gt;Simplexity is a minimalistic theme for Jekyll. It is meant to showcase your content, using a monochrome color scheme and
+a fluid and responsive design. Large, legible fonts scale well across devices and various viewport sizes.&lt;/p&gt;
+
+&lt;p&gt;Simplexity is licensed under &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT license&lt;/a&gt; and is &lt;a href=&quot;http://github.com/mateid/simplexity&quot;&gt;available on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Jekyll is a static site generator that transforms &lt;code&gt;markdown&lt;/code&gt; file into Html. It plays really nice with GitHub and you
+can host your Jekyll powered blog right out of Git pages.&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. If you have questions, you can ask them on
+&lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 15 Dec 2014 09:00:34 -0700</pubDate>
+        <link>http://github.com/mateid/simplexity/2014/12/15/welcome-to-simplexity/</link>
+        <guid isPermaLink="true">http://github.com/mateid/simplexity/2014/12/15/welcome-to-simplexity/</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Simplexity features and styles</title>
+        <description>&lt;p&gt;Simplexity has support for customizing the fonts via &lt;code&gt;basscss&lt;/code&gt; variables. You can customize these in the &lt;code&gt;basscss/basscss.css&lt;/code&gt;
+file, along with the custom media queries used to scale the font size based on the device viewport. I’ve kept custom styles to a minimum.
+—-&lt;/p&gt;
+
+&lt;p&gt;Simplexity nicely proportioned headings with good vertical rhythm. You can use six levels of headings.&lt;/p&gt;
+
+&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
+
+&lt;p&gt;This is some regular paragraph text, followed by a quote. Here is some &lt;em&gt;italic&lt;/em&gt; text followed by something more
+&lt;strong&gt;important&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is what quoted text looks like.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Citation’s can be added with only slightly more complex markdown.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Quoted text, this time with attribution just below.&lt;/p&gt;
+
+  &lt;h6 id=&quot;john-oliver-doe-how-to-stay-anonymous-in-the-age-of-big-data&quot;&gt;&lt;em&gt;John Oliver Doe&lt;/em&gt;, ‘How to stay anonymous in the age of Big Data’&lt;/h6&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can use two kinds of code style with Simplexity - with and without highlighting.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    print &#39;code without highlighting&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is what some highlighted ruby code looks like:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can use the default Jekyll code markup, Simplexity uses the same color scheme provided out of the box by Jekyll. I’ve
+considered using other schemes but I find the default one quite easy on the eyes.&lt;/p&gt;
+
+&lt;p&gt;Simplexity has un-ordered lists&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Apples&lt;/li&gt;
+  &lt;li&gt;Oranges&lt;/li&gt;
+  &lt;li&gt;Umm Grapes?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and ordered lists:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Apples&lt;/li&gt;
+  &lt;li&gt;Oranges&lt;/li&gt;
+  &lt;li&gt;Ok, Grapes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is what images look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.placehold.it/350x150&quot; alt=&quot;Some image&quot; title=&quot;This is the image caption&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s all I can think of for now, I’ll add more here as it comes up.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Dec 2014 09:00:34 -0700</pubDate>
+        <link>http://github.com/mateid/simplexity/2014/12/12/simplexity-features-and-styles/</link>
+        <guid isPermaLink="true">http://github.com/mateid/simplexity/2014/12/12/simplexity-features-and-styles/</guid>
+        
+        <category>features</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Simplexity credits</title>
+        <description>&lt;p&gt;Simplexity is build with the help of the following open source tools and libraries:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; - great static site generator with some great feature&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://basscss.com&quot;&gt;Basscss&lt;/a&gt; - a great low level CSS toolkit&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/reworkcss/rework-npm&quot;&gt;reworknpm&lt;/a&gt; - great tool to help keep basscss modules organized and easily managed&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/reworkcss/rework&quot;&gt;reworkcss&lt;/a&gt; - basscss is built using rework a CSS preprocessor&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nodejs.org&quot;&gt;Node.js&lt;/a&gt; - I think when they said ‘Java everywhere’ they really meant Javascript&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gulpjs.com&quot;&gt;gulp.js&lt;/a&gt; - task runner with nice slick API and great streaming features&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fontawesome.io&quot;&gt;Fontawesome&lt;/a&gt; - glyphs and icons, as the name says pretty awesome&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many thank to all those who contributed to these awesome projects!&lt;/p&gt;
+
+&lt;p&gt;Simplexity has been inspired by &lt;a href=&quot;http://pixyll.com&quot;&gt;Pixyll&lt;/a&gt;, a great Jekyll theme by &lt;a href=&quot;http://johnotander.com/&quot;&gt;John Otander&lt;/a&gt; (@4lpine).
+Many thanks for the inspiration!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 11 Dec 2014 09:00:34 -0700</pubDate>
+        <link>http://github.com/mateid/simplexity/2014/12/11/simplexity-credits/</link>
+        <guid isPermaLink="true">http://github.com/mateid/simplexity/2014/12/11/simplexity-credits/</guid>
+        
+        <category>credits</category>
+        
+        <category>components</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Simplexity has pagination</title>
+        <description>&lt;p&gt;Simplexity has support for pagination. When using a &lt;code&gt;paginate&lt;/code&gt; setting of &lt;code&gt;3&lt;/code&gt; you can see this post wrap onto the second
+page. You can change this in the &lt;code&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Dec 2014 14:00:34 -0700</pubDate>
+        <link>http://github.com/mateid/simplexity/2014/12/07/simplexity-has-pagination/</link>
+        <guid isPermaLink="true">http://github.com/mateid/simplexity/2014/12/07/simplexity-has-pagination/</guid>
+        
+        <category>features</category>
+        
+        
+      </item>
+    
   </channel>
 </rss>
