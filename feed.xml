@@ -4,10 +4,10 @@
     <title>Simplexity</title>
     <description>Simplexity is a minimalistic theme for Jekyll. It is ment to showcase your content, using a monochrome color scheme and a fluid and responsive design. Large, legible fonts scale well across devices and various viewport sizes. Simplexity is licensed under MIT license.
 </description>
-    <link>http://github.com/mateid/simplexity/</link>
-    <atom:link href="http://github.com/mateid/simplexity/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Jan 2015 21:43:17 -0700</pubDate>
-    <lastBuildDate>Tue, 27 Jan 2015 21:43:17 -0700</lastBuildDate>
+    <link>http://github.com/mateid/simplexitysimplexity/</link>
+    <atom:link href="http://github.com/mateid/simplexitysimplexity/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 02 Mar 2015 20:24:19 -0700</pubDate>
+    <lastBuildDate>Mon, 02 Mar 2015 20:24:19 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -27,8 +27,8 @@ can host your Jekyll powered blog right out of Git pages.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 15 Dec 2014 09:00:34 -0700</pubDate>
-        <link>http://github.com/mateid/simplexity/2014/12/15/welcome-to-simplexity/</link>
-        <guid isPermaLink="true">http://github.com/mateid/simplexity/2014/12/15/welcome-to-simplexity/</guid>
+        <link>http://github.com/mateid/simplexitysimplexity/2014/12/15/welcome-to-simplexity/</link>
+        <guid isPermaLink="true">http://github.com/mateid/simplexitysimplexity/2014/12/15/welcome-to-simplexity/</guid>
         
         
       </item>
@@ -101,8 +101,8 @@ considered using other schemes but I find the default one quite easy on the eyes
 &lt;p&gt;That’s all I can think of for now, I’ll add more here as it comes up.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Dec 2014 09:00:34 -0700</pubDate>
-        <link>http://github.com/mateid/simplexity/2014/12/12/simplexity-features-and-styles/</link>
-        <guid isPermaLink="true">http://github.com/mateid/simplexity/2014/12/12/simplexity-features-and-styles/</guid>
+        <link>http://github.com/mateid/simplexitysimplexity/2014/12/12/simplexity-features-and-styles/</link>
+        <guid isPermaLink="true">http://github.com/mateid/simplexitysimplexity/2014/12/12/simplexity-features-and-styles/</guid>
         
         <category>features</category>
         
@@ -130,8 +130,8 @@ Many thanks for the inspiration!&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 11 Dec 2014 09:00:34 -0700</pubDate>
-        <link>http://github.com/mateid/simplexity/2014/12/11/simplexity-credits/</link>
-        <guid isPermaLink="true">http://github.com/mateid/simplexity/2014/12/11/simplexity-credits/</guid>
+        <link>http://github.com/mateid/simplexitysimplexity/2014/12/11/simplexity-credits/</link>
+        <guid isPermaLink="true">http://github.com/mateid/simplexitysimplexity/2014/12/11/simplexity-credits/</guid>
         
         <category>credits</category>
         
@@ -146,8 +146,8 @@ Many thanks for the inspiration!&lt;/p&gt;
 page. You can change this in the &lt;code&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
 </description>
         <pubDate>Sun, 07 Dec 2014 14:00:34 -0700</pubDate>
-        <link>http://github.com/mateid/simplexity/2014/12/07/simplexity-has-pagination/</link>
-        <guid isPermaLink="true">http://github.com/mateid/simplexity/2014/12/07/simplexity-has-pagination/</guid>
+        <link>http://github.com/mateid/simplexitysimplexity/2014/12/07/simplexity-has-pagination/</link>
+        <guid isPermaLink="true">http://github.com/mateid/simplexitysimplexity/2014/12/07/simplexity-has-pagination/</guid>
         
         <category>features</category>
         
