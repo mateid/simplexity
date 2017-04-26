@@ -26,6 +26,7 @@ google: MateiDorobantu
 
 # Build settings
 exclude: [node_modules, gulpfile.js, basscss]
+gems: [jekyll-paginate]
 markdown: kramdown
 permalink: pretty
 paginate: 3
@@ -33,4 +34,4 @@ sass:
  style: compressed
 
 # Highlighting
-highlighter: pygments
+highlighter: pigments
