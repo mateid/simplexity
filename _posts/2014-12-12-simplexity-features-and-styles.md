@@ -11,11 +11,11 @@ file, along with the custom media queries used to scale the font size based on t
 
 Simplexity nicely proportioned headings with good vertical rhythm. You can use six levels of headings.
 
-#Heading 1
+# Heading 1
 
-##Heading 2
+## Heading 2
 
-###Heading 3
+### Heading 3
 
 This is some regular paragraph text, followed by a quote. Here is some *italic* text followed by something more
 **important**.
@@ -26,7 +26,7 @@ Citation's can be added with only slightly more complex markdown.
 
 > Quoted text, this time with attribution just below.
 >
-> ######*John Oliver Doe*, 'How to stay anonymous in the age of Big Data'
+> ###### *John Oliver Doe*, 'How to stay anonymous in the age of Big Data'
 
 You can use two kinds of code style with Simplexity - with and without highlighting.
 

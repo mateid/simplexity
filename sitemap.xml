@@ -16,8 +16,10 @@ layout: null
   </url>
   {% endfor %}
 
+  {% assign excluded_extensions = '.css|.xml' | split: '|' %}
+  
   {% for page in site.pages %}
-  {% for excluded_extension in ['.css', '.xml']%}
+  {% for extension in excluded_extensions %}
   {% unless page.path contains excluded_extension %}
   <url>
     <loc>{{ site.url }}{{ page.url }}</loc>

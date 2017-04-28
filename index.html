@@ -17,11 +17,11 @@ layout: default
 
             {% if post.tags.size > 0 %}
             <p class="light-gray italic">
-                <i class="fa fa-tags"></i> {{ post.tags || join: ', '}}
+                <i class="fa fa-tags"></i> {{ post.tags | join: ', '}}
             </p>
             {% endif %}
 
-            {% if(site.show_post_excerpt and post.show_excerpt %}
+            {% if site.show_post_excerpt and post.show_excerpt %}
             <p class="light-gray italic">
                 {{ post.excerpt }}
             </p>
