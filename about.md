@@ -8,7 +8,7 @@ a fluid and responsive design. Large, legible fonts scale well across devices an
 
 Simplexity is licensed under the [MIT license][license] and is [available on GitHub][simplexity].
 
-##What is Jekyll
+## What is Jekyll
 
 Jekyll is a static site generator that transforms `markdown` file into Html. It plays really nice with GitHub and you
 can host your Jekyll powered blog right out of Git pages.

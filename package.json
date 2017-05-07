@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "basscss": "^5.0.0",
     "gulp": "^3.9.1",
     "gulp-basswork": "^0.2.0",
-    "gulp-rename": "^1.2.2"
+    "gulp-rename": "^1.2.2",
+    "rework": "^1.0.1"
   }
 }

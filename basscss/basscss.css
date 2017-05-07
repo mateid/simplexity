@@ -15,6 +15,7 @@
     /* Define some of our own variables */
     --light-blue: #75dfff;
     --dark-blue: #00849e;
+    --lighter-gray: #ccc;
 }
 
 /* Set the base font size based on the viewport size; this way fonts scale
