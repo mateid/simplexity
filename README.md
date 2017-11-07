@@ -6,7 +6,7 @@ Simplexity is licensed under [MIT license][license].
 
 ![Simplexity screenshot](simplexity.png)
 
-###Getting started
+### Getting started
 
 To get started you need to install Jekyll first. When you're done clone the Simplexity Git repo and drop into a command line then type `jekyll serve`. You should be able to see your site at http://0.0.0.0:4000.
 
